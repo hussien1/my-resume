@@ -1,0 +1,403 @@
+/* glopal style */
+
+* {
+    padding: 0;
+    margin: 0
+}
+
+a {
+    text-decoration: none
+}
+
+section {
+    width: 85.7%;
+    margin-left: 14.3%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid rgba(0, 0, 0, .1)
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Saira", sans-serif
+}
+
+p {
+    font-family: "muli", sans-serif
+}
+
+
+/* ************ */
+
+
+/* start navbar style */
+
+nav {
+    width: 14.3%;
+    height: 100vh;
+    flex-direction: column!important;
+    position: fixed!important;
+    background-color: #bd5d38;
+    z-index: 999
+}
+
+.navbar-brand {
+    position: relative;
+    top: 27%;
+    left: 4%;
+}
+
+.navbar-brand img {
+    border: 8px rgba(255, 255, 255, .2) solid
+}
+
+.collapse {
+    height: auto!important;
+}
+
+.navbar-nav {
+    flex-direction: column!important;
+}
+
+.nav-item {
+    font-family: "muli", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.nav-item a {
+    color: rgba(255, 255, 255, .5)!important
+}
+
+.nav-item:hover a {
+    color: rgba(255, 255, 255, .75)!important
+}
+
+
+/*********************/
+
+
+/* start about style */
+
+.about div h1 {
+    font-family: "saira", sans-serif;
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: #343a40;
+}
+
+.about div h1 span {
+    color: #bd5d38;
+}
+
+.about div p:first-of-type {
+    font-family: "saira", sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #868e96;
+}
+
+.about div p:first-of-type a {
+    color: #bd5d38
+}
+
+.about div p:first-of-type a:hover {
+    color: #824027
+}
+
+.about div p:last-of-type {
+    font-size: 1.15rem;
+    width: 60%;
+    color: #868e96
+}
+
+.icons a {
+    color: #fff;
+    background-color: #495057;
+    display: inline-block;
+    text-align: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    line-height: 3.5rem;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -ms-transition: .5s ease;
+    -o-transition: .5s ease;
+}
+
+.icons a:hover {
+    background-color: #bd5d38
+}
+
+
+/* ***************** */
+
+
+/*start experience style*/
+
+.experience {
+    justify-content: flex-start;
+}
+
+.experience h2,
+.experience h3,
+.experience h4 {
+    text-transform: uppercase;
+    color: #343a40
+}
+
+.experience h2 {
+    font-size: 3.5rem
+}
+
+.experience h3 {
+    font-size: 2rem;
+    display: inline-block;
+    width: 60%
+}
+
+.experience span {
+    font-family: "muli", sans-serif;
+    font-size: 1rem;
+    color: #bd5d38
+}
+
+.experience h4 {
+    font-size: 1.5rem;
+    color: #868e96;
+    font-weight: lighter
+}
+
+.experience p {
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #868e96;
+    width: 52%
+}
+
+
+/************************/
+
+
+/*start education style*/
+
+.education h2,
+.education h3,
+.education h4 {
+    text-transform: uppercase;
+    color: #343a40
+}
+
+.education h2 {
+    font-size: 3.5rem
+}
+
+.education h3 {
+    font-size: 2rem;
+    display: inline-block;
+    width: 60%
+}
+
+.education span {
+    font-family: "muli", sans-serif;
+    font-size: 1rem;
+    color: #bd5d38
+}
+
+.education h4 {
+    font-size: 1.5rem;
+    color: #868e96;
+    font-weight: lighter
+}
+
+.education p {
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #868e96;
+}
+
+.education div span:last-of-type {
+    color: #868e96
+}
+
+
+/***********************/
+
+
+/*start skills style*/
+
+.skills h2 {
+    text-transform: uppercase;
+    color: #343a40;
+    font-size: 3.5rem
+}
+
+.skills h3,
+.icons {
+    color: #868e96;
+}
+
+.icons ul {
+    list-style: none
+}
+
+.icons ul li {
+    display: inline;
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -ms-transition: .5s ease;
+    -o-transition: .5s ease;
+}
+
+.icons li:hover {
+    color: #bd5d38
+}
+
+.sk-info span {
+    font-family: "saira", sans-serif;
+    font-size: 1.5rem;
+    color: #868e96;
+}
+
+.sk-info ul {
+    list-style: none
+}
+
+.sk-info ul li {
+    color: #868e96;
+    font-family: "muli", sans-serif;
+    font-size: 1rem
+}
+
+
+/********************/
+
+
+/*start interests style*/
+
+.interests h2 {
+    text-transform: uppercase;
+    color: #343a40;
+    font-size: 3.5rem
+}
+
+.interests p {
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #868e96;
+    width: 70%
+}
+
+
+/***********************/
+
+
+/*start awards style*/
+
+.awards h2 {
+    text-transform: uppercase;
+    color: #343a40;
+    font-size: 3.5rem
+}
+
+.aw-info ul {
+    list-style: none
+}
+
+.aw-info ul li {
+    color: #868e96;
+    font-family: "muli", sans-serif;
+    font-size: 1rem
+}
+
+
+/********************/
+
+
+/* start mediaquery */
+
+@media(max-height:700px) {
+    .navbar-brand {
+        position: relative;
+        top: 15%!important
+    }
+}
+
+@media(max-width:768px) {
+    nav {
+        width: 100% !important;
+        height: auto;
+        flex-direction: row!important;
+        position: static!important;
+        background-color: #bd5d38;
+    }
+    .navbar-brand {
+        position: static;
+        color: #fff !important;
+        font-family: "muli", sans-serif;
+    }
+    .navbar-nav {
+        text-align: left!important
+    }
+    section {
+        width: 100%;
+        height: auto;
+        margin: 0
+    }
+    .about div h1 {
+        line-height: 5rem;
+    }
+    .about div p:last-of-type {
+        width: 100%;
+    }
+    .icons {
+        text-align: center
+    }
+    .experience span {
+        display: block
+    }
+    .experience p {
+        width: 100%
+    }
+    .experience h3 {
+        width: 100%
+    }
+    .education span {
+        display: block
+    }
+    .education h3 {
+        width: 100%
+    }
+    .interests p {
+        width: 100%
+    }
+}
+
+@media(max-width:320px) {
+    .icons a {
+        margin: 0 20px 10px 0;
+    }
+}
+
+
+/*************************
